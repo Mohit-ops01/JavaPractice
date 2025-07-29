@@ -1,6 +1,6 @@
 import java.util.*;
 public class IfElseDemo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int button = sc.nextInt();
         if (button == 1) {
@@ -17,3 +17,4 @@ public class IfElseDemo {
     }
 }
 //same example is done in switch case demo class with its concept
+
