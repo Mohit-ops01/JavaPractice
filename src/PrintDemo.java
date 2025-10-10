@@ -12,5 +12,8 @@ public class PrintDemo {
         System.out.println("**");
         System.out.println("***");
         System.out.println("****");
+
+        //BONUS :- to print anything in double quotes , we need to add '\'in front and back like--
+        System.out.println("\"hello Akshay\"");
     }
 }
