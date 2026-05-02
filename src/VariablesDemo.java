@@ -17,26 +17,26 @@ public class VariablesDemo {
         System.out.println(z);
 
         // we can do the same with double, no need of f at end
-        double k=1.345;
+        double k = 1.345;
         System.out.println(k);
 
-        char symbol ='#';
+        char symbol = '#';
         System.out.println(symbol);
 
         String name = "mohit sharma";
         System.out.println(name);
-        System.out.println("hello " +name);
+        System.out.println("hello " + name);
 
         int xo = 15;
-        int yo= 20;
+        int yo = 20;
         //int sum= xo+yo;
         //int diff= yo-xo;
-        int mul= xo*yo;
+        int mul = xo * yo;
         System.out.println(mul);
 
         int az = 10;
         int bz = 5;
-        int ans = (az*bz) / (az-bz);
+        int ans = (az * bz) / (az - bz);
         System.out.println(ans);
 
         boolean oz = true;
@@ -48,10 +48,9 @@ public class VariablesDemo {
 
         System.out.println(isAged);
         //or
-        if (isStudent){
+        if (isStudent) {
             System.out.println("This is a Student of NIT");
-        }
-        else{
+        } else {
             System.out.println("This is not a student");
         }
 
@@ -59,10 +58,10 @@ public class VariablesDemo {
         // variable is a resusable container for a value and behaves according to the value stored in it
 
         /* primitive-- simple value stored directly in memory
-        * reference-- memory address that points to something
+         * reference-- memory address that points to something
 
-        * primitive -- examples (int , double ,  char,  boolean)
-        * reference-- exmpls (string , object , array )
+         * primitive -- examples (int , double ,  char,  boolean)
+         * reference-- examples (string , object , array )
          */
     }
 }

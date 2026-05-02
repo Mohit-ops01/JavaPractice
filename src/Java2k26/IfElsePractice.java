@@ -10,6 +10,7 @@ public class IfElsePractice {
         boolean isStudent;
         String name;
 
+        //Group1
         System.out.print("Enter your name: ");
         name = Puma.nextLine();
 
@@ -19,6 +20,7 @@ public class IfElsePractice {
         System.out.print("r u a Student? (true/false): ");
         isStudent = Puma.nextBoolean();
 
+        //Group-2
         if(name == "")/*name.isEmpty()*/{
             System.out.println("You hvnt entered ur name yet !!!");
         }
@@ -26,6 +28,7 @@ public class IfElsePractice {
             System.out.println("hello " + name );
         }
 
+        //Group 3
         if(age >= 65){
             System.out.println("app buddhe ho !!");
         }
@@ -42,6 +45,7 @@ public class IfElsePractice {
             System.out.println("u r a child!!");
         }
 
+        //Group 4
         if(isStudent==true){
             System.out.println("u r student !!");
         }

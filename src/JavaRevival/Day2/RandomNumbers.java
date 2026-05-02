@@ -10,14 +10,14 @@ public class RandomNumbers {
         Random rd = new Random();
 
         //this is to generate one random number only
-//        int number;
+        Double number;
 //
-////        number = rd.nextInt();
-////        System.out.println(number);
-////        //so here basically we will get the output of random number between neg. 2 billion to positive 2 billion. although we dont need such a large number
+//        number = rd.nextDouble(1,100);
+//        System.out.println(number);
+       //so here basically we will get the output of random number between neg. 2 billion to positive 2 billion. although we dont need such a large number
 //
 //        //to overcome this issue set limits in () like below ----
-//        number = rd.nextInt(1 , 6);   //like if we want numbers between 1 to 6
+//        number = rd.nextInt(1 , 10);   //like if we want numbers between 1 to 6
 //        System.out.println(number);
 
 
@@ -41,13 +41,13 @@ public class RandomNumbers {
 //        System.out.println(number); //here there's no need to specify the limits
 
         //also we can get boolean output by using boolean datatype
-        boolean isHeads;
+       boolean isHeads;
         isHeads = rd.nextBoolean();
-        System.out.println(isHeads);
+       System.out.println(isHeads);
         //or we can also use if statemnt to get the best desired output like--
         if(isHeads){
-            System.out.println("HEADS");
-        }else {
+           System.out.println("HEADS");
+       }else {
             System.out.println("TAILS");
         }
 
